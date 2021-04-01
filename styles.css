@@ -1,4 +1,4 @@
-a {
+.menu__item {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -7,14 +7,14 @@ a {
   font-weight: bold;
 }
 
-.title {
+.main-content__title {
   font-family: 'PT Serif', serif;
 }
 
-p {
+.main-content__description {
   font-family: 'Roboto', sans-serif;
 }
 
-.button {
+.main-content__button {
   font-family: 'Roboto', sans-serif;
 }
