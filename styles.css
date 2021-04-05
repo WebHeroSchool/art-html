@@ -24,7 +24,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/32px 'PT Serif', Georgia, serif;
+  font: bold 24px/32px 'pt_serifbold', Georgia, serif;
 }
 
 .logo__circle {
@@ -55,6 +55,8 @@ body {
 
 .menu__item {
   padding: 0 13px;
+  font-family: 'robotomedium', Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 .menu__item:last-child {
@@ -62,9 +64,9 @@ body {
 }
 
 .main-content__title {
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: 'pt_serifbold', Georgia, serif;
 }
 
-.menu__item, .main-content__description, .main-content__button {
-  font-family: 'Roboto', sans-serif;
+.main-content__description, .main-content__button {
+  font-family: 'robotoregular', Arial, Helvetica, sans-serif;
 }
