@@ -16,7 +16,8 @@ body {
   justify-content: space-between;
 }
 
-.logo, .menu {
+.logo, 
+.menu {
   display: inline-block;
 }
 
@@ -35,17 +36,17 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
 }
 
 .menu {
@@ -59,7 +60,7 @@ body {
   font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .menu__item::after {
@@ -75,7 +76,7 @@ body {
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .menu__item:hover::after {
@@ -98,7 +99,8 @@ body {
   background: #0056EC;
 }
 
-.menu__item:hover::after, .menu__item_active::after {
+.menu__item:hover::after, 
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -111,6 +113,7 @@ body {
   font-family: 'pt_serifbold', Georgia, serif;
 }
 
-.main-content__description, .main-content__button {
+.main-content__description, 
+.main-content__button {
   font-family: 'robotoregular', Arial, Helvetica, sans-serif;
 }
