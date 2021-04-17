@@ -1,21 +1,17 @@
-/* * {
-  border: dashed 1px red;
-} */
-
 body {
   margin: 0;
 }
 
 .wrapper {
-  width: 80%;
-  height: 100%;
-  margin: auto;
+  margin-left: 190px;
+  margin-right: 183px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
+  padding-left: 5px;
 }
 
 .logo,
@@ -32,8 +28,6 @@ body {
 
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -42,6 +36,8 @@ body {
 }
 
 .logo__circle_color_dark-blue {
+  left: 0;
+  top: 50%;
   background: #0056ec;
 }
 
@@ -54,11 +50,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin-right: 19px;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 25px;
   font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -69,6 +66,7 @@ body {
   position: absolute;
   display: block;
   content: '';
+  bottom: -4px;
   left: 50%;
   width: 0;
   height: 3px;
@@ -111,22 +109,32 @@ body {
   margin-right: 0;
 }
 
+.menu__item:nth-child(3) {
+  margin-right: 28px;
+}
+
+.menu__item:nth-child(4) {
+  margin-right: 27px;
+}
+
 .main {
-  padding: 0 63% 230px 0;
+  padding: 0 62% 230px 5px;
+  margin-right: 14px;
   background: top right no-repeat url(./img/mainimg.svg);
 }
 
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 36px 0;
+  padding-top: 74px;
   font: 66px/87px 'pt_serifbold', Georgia, serif;
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecF3ff 15%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 42px 0;
   font: 22px/26px 'robotoregular', Arial, Helvetica, sans-serif;
 }
 
@@ -135,7 +143,7 @@ body {
   font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
-  padding: 18px 23px;
+  padding: 18px 34px 18px 23px;
   border-radius: 4px;
   text-decoration: none;
   transition: 0.5s;
