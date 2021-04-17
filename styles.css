@@ -135,6 +135,7 @@ body {
 
 .main__subtitle {
   margin: 0 0 42px 0;
+  width: 78%;
   font: 22px/26px 'robotoregular', Arial, Helvetica, sans-serif;
 }
 
