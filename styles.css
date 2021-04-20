@@ -3,15 +3,15 @@ body {
 }
 
 .wrapper {
-  margin-left: 190px;
-  margin-right: 183px;
+  margin: auto;
+  width: 79%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 130px;
-  padding-left: 5px;
+  padding-left: 4px;
 }
 
 .logo,
@@ -50,7 +50,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 19px;
+  margin-right: 10px;
 }
 
 .menu__item {
@@ -118,8 +118,8 @@ body {
 }
 
 .main {
-  padding: 0 62% 230px 5px;
-  margin-right: 14px;
+  padding: 0 62% 230px 3px;
+  margin-right: 5px;
   background: top right no-repeat url(./img/mainimg.svg);
 }
 
