@@ -215,11 +215,11 @@ body {
 
 @media (max-width: 1025px) {
   
-.wrapper {
+  .wrapper {
     width: 91%;
   }
 
-.menu {
+  .menu {
     margin-right: 0;
   }
 }
@@ -278,5 +278,4 @@ body {
   .ellipse {
     display: none;
   }
-
 }
