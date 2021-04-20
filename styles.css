@@ -4,7 +4,7 @@ body {
 
 .wrapper {
   margin: auto;
-  width: 79%;
+  width: 80%;
 }
 
 .header {
@@ -118,7 +118,7 @@ body {
 }
 
 .main {
-  padding: 0 62% 230px 3px;
+  padding: 0 62% 268px 3px;
   margin-right: 5px;
   background: top right no-repeat url(./img/mainimg.svg);
 }
@@ -153,3 +153,22 @@ body {
 .main__button:hover {
   opacity: 0.5;
 }
+
+.ellipse {
+  display: flex;
+  justify-content: center;
+}
+  
+.ellipse__item {
+  margin-right: 4px;
+  width: 8px;
+  height: 8px;
+  background: #c8dbfb;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.ellipse__item:last-child {
+  margin-right: 0;
+}
+  
