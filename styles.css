@@ -211,10 +211,10 @@ body {
     font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
     padding: 14px 25px 14px 16px;
   }
-
 }
-@media (max-width: 1025px) {
 
+@media (max-width: 1025px) {
+  
   .wrapper {
     width: 91%;
   }
