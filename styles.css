@@ -176,7 +176,7 @@ body {
   .wrapper {
     width: 68%;
   }
-  
+
   .header {
     padding-left: 0;
     margin-bottom: 84px;
@@ -215,14 +215,13 @@ body {
 
 @media (max-width: 1025px) {
   
-  .wrapper {
+.wrapper {
     width: 91%;
   }
 
-  .menu {
+.menu {
     margin-right: 0;
   }
-
 }
 
 @media (max-width: 376px) {
