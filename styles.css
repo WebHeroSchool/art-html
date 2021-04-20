@@ -214,7 +214,6 @@ body {
 }
 
 @media (max-width: 1025px) {
-
   .wrapper {
     width: 91%;
   }
@@ -225,7 +224,6 @@ body {
 }
 
 @media (max-width: 376px) {
-
   .wrapper {
     width: 87%;
   }
