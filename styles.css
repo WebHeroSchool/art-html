@@ -171,4 +171,47 @@ body {
 .ellipse__item:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 1366px) {
+  
+  .wrapper {
+    width: 68%;
+  }
+  
+  .header {
+    padding-left: 0;
+    margin-bottom: 84px;
+  }
+
+  .menu {
+    margin-right: 4px;
+    padding-top: 5px;
+  }
+
+  .menu__item {
+    font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
+  }
+
+  .main {
+    background: top right/55% no-repeat url(./img/mainimg.svg);
+    margin-right: 0;
+    padding: 0px 50% 147px 0px
+  }
+
+  .main__title {
+    font: 50px/66px 'pt_serifbold', Georgia, serif;
+    padding-top: 16px;
+    margin: 0 0 37px 0;
+  }
+  
+  .main__subtitle {
+    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+  }
+  
+  .main__button {
+    font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
+    padding: 14px 25px 14px 16px;
+  }
+
+}
   
