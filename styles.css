@@ -172,6 +172,89 @@ body {
   margin-right: 0;
 }
 
+.menu__burger {
+  display: none;
+}
+
+#menu__toggle {
+  display: none;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 27px;
+  left: 326px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+  transition-duration: 0.25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -7px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 7px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 172px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: 0.25s;
+}
+
+.menu__box-item {
+  display: block;
+  padding: 12.5px 24px 12.5px 20px;
+  color: #000;
+  font: 30px/35px 'robotomedium', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+.menu__box-item:hover {
+  background-color: #CFD8DC;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
 @media (max-width: 1366px) {
   .wrapper {
     width: 68%;
@@ -224,10 +307,6 @@ body {
 }
 
 @media (max-width: 769px) {
-  .wrapper {
-    width: 91%;
-  }
-
   .main {
     padding: 0 50% 255px 0;
   }
@@ -242,7 +321,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  .menu {
+  .logo__text {
     display: none;
   }
 
@@ -282,18 +361,17 @@ body {
   .wrapper {
     width: 87%;
   }
-  
-  .header {
-    margin-bottom: 7px;
+
+  .menu {
+    display: none;
+  }
+
+  .menu__burger {
+    display: block;
   }
 
   .logo {
-    padding: 40px 0;
     padding-left: 0;
-  }
-
-  .logo__text {
-    display: none;
   }
 
   .main {
@@ -307,6 +385,7 @@ body {
   
   .main__subtitle {
     width: 72%;
+    padding-left: 5px;
   }
   
   .main__button {
@@ -326,5 +405,13 @@ body {
 
   .main__title {
     margin: 0 auto 22px auto;
+  }
+
+  .menu__btn {
+    left: 271px;
+  }
+
+  .menu__box {
+    padding: 40% 0;
   }
 }
