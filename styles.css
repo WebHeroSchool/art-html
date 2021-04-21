@@ -202,10 +202,12 @@ body {
   background: #0056ec;
   transition-duration: 0.25s;
 }
+
 .menu__btn > span::before {
   content: '';
   top: -7px;
 }
+
 .menu__btn > span::after {
   content: '';
   top: 7px;
@@ -223,7 +225,6 @@ body {
   list-style: none;
   text-align: center;
   background-color: #fff;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: 0.25s;
 }
 
@@ -235,21 +236,25 @@ body {
   text-decoration: none;
   transition-duration: 0.25s;
 }
+
 .menu__box-item:hover {
-  background-color: #CFD8DC;
+  background-color: #fff;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
+
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
 }
+
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
+
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
