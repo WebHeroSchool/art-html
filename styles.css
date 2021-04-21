@@ -250,10 +250,6 @@ body {
     margin-bottom: 7px;
   }
 
-  .menu {
-    display: none;
-  }
-
   .menu__item {
     font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
   }
