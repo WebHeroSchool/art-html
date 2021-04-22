@@ -127,6 +127,17 @@ body {
   margin: 0 0 36px 0;
   padding-top: 74px;
   font: 66px/87px 'pt_serifbold', Georgia, serif;
+  animation: 1.5s slidein alternate;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-720px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 .main__title-text_highlight {
