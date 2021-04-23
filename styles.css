@@ -273,6 +273,12 @@ body {
   left: 0;
 }
 
+@media (max-width: 1460px) {
+  .main__title {
+    width: 95%;
+  }
+}
+
 @media (max-width: 1366px) {
   .wrapper {
     width: 68%;
@@ -299,13 +305,13 @@ body {
   }
 
   .main__title {
-    font: 50px/66px 'pt_serifbold', Georgia, serif;
-    padding-top: 16px;
-    margin: 0 0 37px 0;
+    font: 50px/65px 'pt_serifbold', Georgia, serif;
+    padding-top: 17px;
+    margin: 0 0 39px 0;
   }
 
   .main__subtitle {
-    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 1.14em/21px 'robotoregular', Arial, Helvetica, sans-serif;
   }
   
   .main__button {
@@ -325,12 +331,49 @@ body {
 }
 
 @media (max-width: 769px) {
+  .header {
+    margin-bottom: 25px;
+  }
+
+  .logo__text {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu__burger {
+    display: block;
+  }
+
+  .logo {
+    padding-left: 0;
+  }
+
+  .menu__btn {
+    left: 700px;
+  }
+
+  .menu__box {
+    padding: 325px 0;
+  }
+
   .main {
-    padding: 0 50% 255px 0;
+    background: top center/75% no-repeat url(./img/mainimg.svg);
+    padding: 73% 0;
+    text-align: center;
   }
 
   .main__title {
-    width: 89%;
+    width: 85%;
+    margin: 0 auto 32px auto;
+    padding-top: 0px;
+  }
+
+  .main__subtitle {
+    margin: 0 auto 30px auto;
+    width: 68%;
   }
 
   .ellipse {
@@ -339,18 +382,14 @@ body {
 }
 
 @media (max-width: 576px) {
-  .logo__text {
-    display: none;
+  .menu__btn {
+    left: 520px;
   }
 
-  .header {
-    margin-bottom: 7px;
+  .menu__box {
+    padding: 325px 0;
   }
-
-  .menu__item {
-    font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
-  }
-
+  
   .main {
     background: top center/86% no-repeat url(./img/mainimg.svg);
     padding: 79% 0;
@@ -380,20 +419,16 @@ body {
     width: 87%;
   }
 
-  .menu {
-    display: none;
+  .header {
+    margin-bottom: 7px;
   }
 
-  .menu__burger {
-    display: block;
+  .menu__btn {
+    left: 325px;
   }
 
-  .logo {
-    padding-left: 0;
-  }
-
-  .main {
-    text-align: center;
+  .menu__box {
+    padding: 46% 0;
   }
 
   .main__title {
