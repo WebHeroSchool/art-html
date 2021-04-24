@@ -361,7 +361,7 @@ body {
 
   .main {
     background: top center/75% no-repeat url(./img/mainimg.svg);
-    padding: 73% 0;
+    padding: 73% 0 0 0;
     text-align: center;
   }
 
@@ -392,7 +392,7 @@ body {
   
   .main {
     background: top center/86% no-repeat url(./img/mainimg.svg);
-    padding: 79% 0;
+    padding: 79% 0 0 0;
     text-align: center;
   }
 
@@ -410,13 +410,14 @@ body {
   
   .main__button {
     font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
-    padding: 14px 25px 13px 16px;
+    padding: 14px 24px 14px 17px;
   }
 }
 
 @media (max-width: 376px) {
   .wrapper {
     width: 87%;
+    height: 667px;
   }
 
   .header {
@@ -453,7 +454,7 @@ body {
 
   .main {
     background: top center/65% no-repeat url(./img/mainimg.svg);
-    padding: 60% 0;
+    padding: 60% 0 0 0;
   }
 
   .main__title {
