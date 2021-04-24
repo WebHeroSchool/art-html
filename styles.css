@@ -342,7 +342,7 @@ body {
 
 @media (max-width: 1025px) {
   .menu {
-    margin-right: 0px;
+    margin-right: 0;
   }
   
   .main {
