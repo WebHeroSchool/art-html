@@ -444,7 +444,7 @@ body {
 @media (max-width: 376px) {
   .wrapper {
     width: 87%;
-    max-height: 667px;
+    height: 667px;
   }
 
   .header {
@@ -476,7 +476,7 @@ body {
   }
 
   .wrapper {
-    max-height: 568px;
+    height: 568px;
   }
 
   .main {
