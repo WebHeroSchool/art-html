@@ -405,8 +405,8 @@ body {
   }
 
   .main {
-    background: top center/75% no-repeat url(./img/mainimg.svg);
-    padding: 73% 0 0 0;
+    background: top center/55% no-repeat url(./img/mainimg.svg);
+    padding: 52% 0 0 0;
     text-align: center;
   }
 
@@ -425,12 +425,6 @@ body {
 @media (max-width: 576px) {
   .menu__box {
     padding: 325px 0;
-  }
-  
-  .main {
-    background: top center/86% no-repeat url(./img/mainimg.svg);
-    padding: 79% 0 0 0;
-    text-align: center;
   }
 
   .main__title {
@@ -463,6 +457,12 @@ body {
 
   .menu__box {
     padding: 46% 0;
+  }
+
+  .main {
+    background: top center/86% no-repeat url(./img/mainimg.svg);
+    padding: 79% 0 0 0;
+    text-align: center;
   }
 
   .main__title {
